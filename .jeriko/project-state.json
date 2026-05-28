@@ -168,8 +168,8 @@
     "lastSuccessfulVerification": {
       "ok": true,
       "profile": "web-static",
-      "completedAt": "2026-05-28T02:44:14.662Z",
-      "command": "jeriko verify-app /home/toby/.jeriko/projects/exterior-envelope-pros",
+      "completedAt": "2026-05-28T12:39:32.447Z",
+      "command": "jeriko verify-app /home/toby/.jeriko/projects/exterior-envelope-pros --dir /home/toby/.jeriko/projects/exterior-envelope-pros --profile web-static --port 4183 --route /api/health --browser-route /contact",
       "gates": [
         {
           "name": "placeholder_scan",
@@ -286,20 +286,20 @@
         {
           "name": "start_route",
           "ok": true,
-          "command": "PORT=4173 node dist/index.js",
+          "command": "PORT=4183 node dist/index.js",
           "status": 0
         },
         {
           "name": "browser_smoke",
           "ok": true,
-          "command": "PORT=4173 node dist/index.js",
+          "command": "PORT=4183 node dist/index.js",
           "status": 0
         }
       ],
       "sourceFingerprint": {
-        "sha256": "df0580571dbe08403190b613eeae7b7c70328117603781e5a24cffc2d1b5c827",
+        "sha256": "d59a649d0bad573e8de4eaa796724b80b529aaad3b88ad4d0d86e702cceda343",
         "fileCount": 89,
-        "bytes": 550558
+        "bytes": 551094
       }
     }
   },
