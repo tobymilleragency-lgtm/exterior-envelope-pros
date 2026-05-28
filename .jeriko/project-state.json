@@ -168,7 +168,7 @@
     "lastSuccessfulVerification": {
       "ok": true,
       "profile": "web-static",
-      "completedAt": "2026-05-28T02:36:29.251Z",
+      "completedAt": "2026-05-28T02:44:14.662Z",
       "command": "jeriko verify-app /home/toby/.jeriko/projects/exterior-envelope-pros",
       "gates": [
         {
@@ -297,9 +297,9 @@
         }
       ],
       "sourceFingerprint": {
-        "sha256": "79e3f236f1dd6b5a5fa3c020104081c3d3046bb14b1d6b0cc172ad40a8e4a080",
+        "sha256": "df0580571dbe08403190b613eeae7b7c70328117603781e5a24cffc2d1b5c827",
         "fileCount": 89,
-        "bytes": 552282
+        "bytes": 550558
       }
     }
   },
