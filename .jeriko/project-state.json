@@ -168,7 +168,7 @@
     "lastSuccessfulVerification": {
       "ok": true,
       "profile": "web-static",
-      "completedAt": "2026-05-28T12:39:32.447Z",
+      "completedAt": "2026-05-28T12:44:07.743Z",
       "command": "jeriko verify-app /home/toby/.jeriko/projects/exterior-envelope-pros --dir /home/toby/.jeriko/projects/exterior-envelope-pros --profile web-static --port 4183 --route /api/health --browser-route /contact",
       "gates": [
         {
@@ -297,9 +297,9 @@
         }
       ],
       "sourceFingerprint": {
-        "sha256": "d59a649d0bad573e8de4eaa796724b80b529aaad3b88ad4d0d86e702cceda343",
+        "sha256": "bd3f99398cade10b6efdbb408d82c51916c5883c8384d8a469e74c3ab8e5f34b",
         "fileCount": 89,
-        "bytes": 551094
+        "bytes": 551148
       }
     }
   },
