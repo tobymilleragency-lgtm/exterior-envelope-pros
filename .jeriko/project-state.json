@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "name": "exterior-envelope-pros",
+  "template": "web-static",
+  "profile": "web-static",
+  "packageManager": "pnpm",
+  "generatedAt": "2026-05-27T21:17:08.496Z",
+  "appSpec": {
+    "version": 1,
+    "source": "prompt",
+    "prompt": "Build a production-ready contractor demo website for Exterior Envelope work: siding, gutters, windows, doors, soffit/fascia, wraps and trim, storm/insurance restoration. Template/demo with realistic swappable placeholder business name and contact info. Must feel distinct from roofing/fence/framing/general contractor templates with bundle-focused hero, material/style showcase, insurance callout, gallery/before-after prominence, service pages, service areas, process, about, contact form posting to placeholder webhook config for later GHL wiring, SEO/schema/sitemap/robots.",
+    "appType": "local-service-site",
+    "pages": [
+      {
+        "path": "/",
+        "title": "Home"
+      },
+      {
+        "path": "/services",
+        "title": "Services"
+      },
+      {
+        "path": "/services/siding",
+        "title": "Siding"
+      },
+      {
+        "path": "/services/gutters-downspouts",
+        "title": "Gutters and Downspouts"
+      },
+      {
+        "path": "/services/windows",
+        "title": "Replacement Windows"
+      },
+      {
+        "path": "/services/doors",
+        "title": "Exterior Doors"
+      },
+      {
+        "path": "/services/soffit-fascia",
+        "title": "Soffit and Fascia"
+      },
+      {
+        "path": "/services/wraps-trim",
+        "title": "Wraps and Trim"
+      },
+      {
+        "path": "/services/storm-insurance-restoration",
+        "title": "Storm and Insurance Restoration"
+      },
+      {
+        "path": "/process",
+        "title": "Process"
+      },
+      {
+        "path": "/about",
+        "title": "About"
+      },
+      {
+        "path": "/service-areas",
+        "title": "Service Areas"
+      },
+      {
+        "path": "/service-areas/your-city",
+        "title": "Your City"
+      },
+      {
+        "path": "/service-areas/north-county",
+        "title": "North County"
+      },
+      {
+        "path": "/service-areas/west-valley",
+        "title": "West Valley"
+      },
+      {
+        "path": "/projects",
+        "title": "Projects"
+      },
+      {
+        "path": "/gallery",
+        "title": "Gallery"
+      },
+      {
+        "path": "/reviews",
+        "title": "Reviews"
+      },
+      {
+        "path": "/faq",
+        "title": "FAQ"
+      },
+      {
+        "path": "/contact",
+        "title": "Contact"
+      },
+      {
+        "path": "/privacy",
+        "title": "Privacy"
+      },
+      {
+        "path": "/terms",
+        "title": "Terms"
+      }
+    ],
+    "features": [
+      "production homepage",
+      "customer-ready marketing content",
+      "multi-page marketing site",
+      "conversion-focused contact path",
+      "premium contractor conversion system",
+      "SPA internal navigation",
+      "deploy-safe Vercel static routing",
+      "local service SEO content"
+    ],
+    "integrations": {
+      "allowed": [],
+      "forbidden": [
+        "stripe"
+      ]
+    },
+    "successCriteria": [
+      "Full required verify-app gate passes",
+      "Generated app matches this app spec contract",
+      "No forbidden integrations appear unless explicitly allowed in this spec",
+      "Every appSpec page is implemented as a routable page, not collapsed into a single landing page",
+      "Premium marketing sites include a hero system visual, lead-flow module, interactive audit, before/after comparison, sticky CTA, and SPA internal navigation"
+    ]
+  },
+  "commands": {
+    "install": "pnpm install --frozen-lockfile --ignore-scripts",
+    "check": "pnpm run check",
+    "build": "pnpm run build",
+    "start": "PORT=${PORT} node dist/index.js",
+    "dev": "pnpm run dev"
+  },
+  "routes": {
+    "home": "/"
+  },
+  "verification": {
+    "requiredGates": [
+      "app_spec_contract",
+      "placeholder_scan",
+      "scaffold_residue_scan",
+      "unsafe_env_scan",
+      "primary_persistence_scan",
+      "db_auth_workflow_wiring",
+      "auth_runtime_config_scan",
+      "mock_data_import_scan",
+      "provider_config_scan",
+      "image_uniqueness_scan",
+      "forbidden_integration_scan",
+      "workflow_contract",
+      "primary_action_wiring",
+      "business_math_realness",
+      "primary_fetch_error_handling",
+      "supabase_product_foundation",
+      "premium_marketing_site_scan",
+      "app_spec_verifier",
+      "install",
+      "check",
+      "build",
+      "production_artifact_scan",
+      "crawler_html",
+      "start_route",
+      "browser_smoke",
+      "public_builder_meta_scan",
+      "readiness_claim_scan",
+      "app_builder_control_plan"
+    ],
+    "lastSuccessfulVerification": {
+      "ok": true,
+      "profile": "web-static",
+      "completedAt": "2026-05-28T02:14:54.782Z",
+      "command": "jeriko verify-app /home/toby/.jeriko/projects/exterior-envelope-pros",
+      "gates": [
+        {
+          "name": "placeholder_scan",
+          "ok": true
+        },
+        {
+          "name": "scaffold_residue_scan",
+          "ok": true
+        },
+        {
+          "name": "public_builder_meta_scan",
+          "ok": true
+        },
+        {
+          "name": "unsafe_env_scan",
+          "ok": true
+        },
+        {
+          "name": "primary_persistence_scan",
+          "ok": true
+        },
+        {
+          "name": "db_auth_workflow_wiring",
+          "ok": true
+        },
+        {
+          "name": "auth_runtime_config_scan",
+          "ok": true
+        },
+        {
+          "name": "mock_data_import_scan",
+          "ok": true
+        },
+        {
+          "name": "provider_config_scan",
+          "ok": true
+        },
+        {
+          "name": "readiness_claim_scan",
+          "ok": true
+        },
+        {
+          "name": "image_uniqueness_scan",
+          "ok": true
+        },
+        {
+          "name": "app_builder_control_plan",
+          "ok": true
+        },
+        {
+          "name": "app_spec_contract",
+          "ok": true
+        },
+        {
+          "name": "forbidden_integration_scan",
+          "ok": true
+        },
+        {
+          "name": "workflow_contract",
+          "ok": true
+        },
+        {
+          "name": "primary_action_wiring",
+          "ok": true
+        },
+        {
+          "name": "business_math_realness",
+          "ok": true
+        },
+        {
+          "name": "primary_fetch_error_handling",
+          "ok": true
+        },
+        {
+          "name": "supabase_product_foundation",
+          "ok": true
+        },
+        {
+          "name": "premium_marketing_site_scan",
+          "ok": true
+        },
+        {
+          "name": "app_spec_verifier",
+          "ok": true
+        },
+        {
+          "name": "install",
+          "ok": true,
+          "command": "pnpm install --frozen-lockfile --ignore-scripts",
+          "status": 0
+        },
+        {
+          "name": "check",
+          "ok": true,
+          "command": "pnpm run check",
+          "status": 0
+        },
+        {
+          "name": "build",
+          "ok": true,
+          "command": "pnpm run build",
+          "status": 0
+        },
+        {
+          "name": "production_artifact_scan",
+          "ok": true,
+          "status": 0
+        },
+        {
+          "name": "crawler_html",
+          "ok": true,
+          "status": 0
+        },
+        {
+          "name": "start_route",
+          "ok": true,
+          "command": "PORT=4173 node dist/index.js",
+          "status": 0
+        },
+        {
+          "name": "browser_smoke",
+          "ok": true,
+          "command": "PORT=4173 node dist/index.js",
+          "status": 0
+        }
+      ],
+      "sourceFingerprint": {
+        "sha256": "d1f336cc12432c263ccb83dde3b0c9020555e8d0d003378df4796a83856c8cd8",
+        "fileCount": 87,
+        "bytes": 547989
+      }
+    }
+  },
+  "appBuilderPlan": {
+    "mode": "controlled-app-build",
+    "mandatorySkills": [
+      "operator-build-discipline",
+      "app-builder-production-sites",
+      "premium-ui-motion",
+      "contractor-site-autonomous-build"
+    ],
+    "phases": [
+      {
+        "id": "target-lock",
+        "status": "complete"
+      },
+      {
+        "id": "skill-bind",
+        "status": "complete"
+      },
+      {
+        "id": "appspec-plan",
+        "status": "complete"
+      },
+      {
+        "id": "scaffold",
+        "status": "complete"
+      },
+      {
+        "id": "implement-routes",
+        "status": "complete"
+      },
+      {
+        "id": "implement-workflows",
+        "status": "complete"
+      },
+      {
+        "id": "verify",
+        "status": "complete"
+      },
+      {
+        "id": "repair",
+        "status": "available"
+      },
+      {
+        "id": "checkpoint-preview",
+        "status": "complete"
+      },
+      {
+        "id": "evidence-report",
+        "status": "complete"
+      }
+    ],
+    "repairRouters": [
+      {
+        "failedGate": "app_spec_verifier",
+        "action": "Fix app_spec_verifier evidence, rerun verify-app, and record blocker if still failing."
+      },
+      {
+        "failedGate": "premium_marketing_site_scan",
+        "action": "Fix premium_marketing_site_scan evidence, rerun verify-app, and record blocker if still failing."
+      },
+      {
+        "failedGate": "public_builder_meta_scan",
+        "action": "Fix public_builder_meta_scan evidence, rerun verify-app, and record blocker if still failing."
+      },
+      {
+        "failedGate": "workflow_contract",
+        "action": "Fix workflow_contract evidence, rerun verify-app, and record blocker if still failing."
+      },
+      {
+        "failedGate": "primary_action_wiring",
+        "action": "Fix primary_action_wiring evidence, rerun verify-app, and record blocker if still failing."
+      },
+      {
+        "failedGate": "crawler_html",
+        "action": "Fix crawler_html evidence, rerun verify-app, and record blocker if still failing."
+      },
+      {
+        "failedGate": "build",
+        "action": "Fix build evidence, rerun verify-app, and record blocker if still failing."
+      }
+    ]
+  }
+}
